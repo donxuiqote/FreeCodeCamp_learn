@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: linear-gradient( -45deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.3) ), url(https://media.newyorker.com/photos/60d659df728afe4f413115a9/master/pass/Hajdu-Survey.jpg);
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+}
+.form{
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+h1, p{
+  text-align: center;
+}
+h1{
+  font-size: 2rem;
+}
+p{
+  font-size: 1rem;
+  font-style: italic;
+}
+
+form{
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  margin: auto;
+  max-width: 600px;
+}
+input, select, textarea{
+  display: block;
+  width: 100%;
+  height:6vh;
+  border-radius:5px;
+  font-size:inherit;
+  margin-top:0.5rem;
+
+}
+.area{
+  margin: 2rem auto;
+}
+input[type=radio], input[type=checkbox]{
+  width: 1.5em;
+}
+.area:nth-child(5) label, .area:nth-child(7) label{
+  display:flex;
+  padding: 0;
+  align-items: center;
+}
+input[type="radio"], input[type="checkbox"]{
+  margin-right: 0.5rem;
+  min-height: 1.5rem;
+  max-height: 1.75rem;
+}
+
+textarea{
+  height:20vh;
+}
+
+span{
+  font-size: .80em;
+}
+
+input[type="submit"]{
+  background: rgba(12,160,9,1);
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+  background: rgba(12,150,9,1);
+}
+
+input[type="submit"]:active{
+  background: rgba(12,180,9,0.6);
+}
+
